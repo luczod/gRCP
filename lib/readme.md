@@ -1,0 +1,3 @@
+- create math_message.proto
+- protoc --dart_out=grpc:generated  -Iproto .\proto\math_message.proto
+- generate math_message.pb.dart
